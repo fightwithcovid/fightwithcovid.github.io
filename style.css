@@ -1,0 +1,848 @@
+body{
+	background-color: #f0f5f5;
+	width: 100% !important;
+}
+.parallax {
+  background-image: url("virus.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.par-div{
+	padding: 30px !important;
+}
+
+#div1{
+	height: 200px !important;
+	width: 100% !important;
+	background-color: #ccccff;
+	background-size: cover !important;
+	border-radius: 50px 50px 0px 0px !important;
+}
+
+#div1:hover{
+	height: 220px !important;
+	transition: 0.2s;
+}
+
+#div2{
+	height: 200px !important;
+	width: 100% !important;
+	background-color: #9999ff;
+	background-size: cover !important;
+}
+
+#div2:hover{
+	height: 220px !important;
+	transition: 0.2s;
+}
+
+#div3{
+	height: 200px !important;
+	width: 100% !important;
+	background-color: #6666ff;
+	background-size: cover !important;
+	border-radius: 0px 0px 50px 50px !important;
+}
+
+#div3:hover{
+	height: 220px !important;
+	transition: 0.2s;
+}
+
+#div4{
+	height: 550px !important;
+	width: 100% !important;
+	background-color: #3333ff;
+	background-size: cover !important;
+	border-radius: 50px 50px 0px 0px !important;
+	color: #fff !important;
+}
+
+#div5{
+	height: 550px !important;
+	width: 100% !important;
+	background-color: #0000e6;
+	background-size: cover !important;
+	border-radius: 0px 0px 50px 50px !important;
+	color: #fff !important;
+}
+
+#divx{
+	height: 500px !important;
+	width: 100% !important;
+	background-color: #ff0000;
+	background-size: cover !important;
+	border-radius: 50px !important;
+	color: #fff !important;
+}
+
+#divch{
+  width: 100% !important;
+  background-size: cover !important;
+  background-color: #2929a3;
+  border-radius: 50px !important;
+}
+
+#div_ch{
+  width: 100% !important;
+}
+
+input{
+	border-radius: 50px !important;
+}
+
+button{
+	border-radius: 50px !important;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+#navs{
+	background-color: #4d4d4d !important;
+	background-size: cover !important;
+}
+
+.footer{
+	height: 70px !important;
+	padding-top: 20px !important;
+	width: 100% !important;
+	background-color: #4d4d4d !important;
+	color: #fff !important;
+	background-size: cover !important;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  margin-left: 0.1px;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  margin-left: 0.2px;
+  color: white;
+}
+
+@media screen and (min-width: 320px) {
+  h3 {
+    font-size: 15px !important;
+  }
+
+  h1{
+  	font-size: 22px !important;
+  }
+
+  #div1{
+  	height: 275px !important;
+  	width: 100% !important;
+  	background-color: #ccccff;
+  	background-size: cover !important;
+  	border-radius: 50px 50px 0px 0px !important;
+  	padding: 10px !important;
+  }
+
+  #div2{
+  	height: 275px !important;
+  	width: 100% !important;
+  	background-color: #9999ff;
+  	background-size: cover !important;
+  	padding: 10px !important;
+  }
+
+  #div3{
+  	height: 275px !important;
+  	width: 100% !important;
+  	background-color: #6666ff;
+  	background-size: cover !important;
+  	border-radius: 0px 0px 50px 50px !important;
+  	padding: 10px !important;
+  }
+
+  #divx{
+  	height: 1050px !important;
+  	width: 100% !important;
+  	background-color: #ff0000;
+  	background-size: cover !important;
+  	border-radius: 50px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div4{
+  	height: 1150px !important;
+  	width: 100% !important;
+  	background-color: #3333ff;
+  	background-size: cover !important;
+  	border-radius: 50px 50px 0px 0px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div5{
+  	height: 1275px !important;
+  	width: 100% !important;
+  	background-color: #0000e6;
+  	background-size: cover !important;
+  	border-radius: 0px 0px 50px 50px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div_ch{
+    width: auto !important;
+    position: relative;
+    padding-bottom: 100%;
+    height: 0;
+    overflow:hidden;
+    margin-left: -90px !important;
+  }
+
+  .btn-light{
+    width: 30% !important;
+    height: auto;
+    margin-top: -150px !important;
+    font-size: 13px;
+  }
+
+  .btn-dark{
+    width: 30% !important;
+    height: auto;
+    margin-top: -190px !important;
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  h3 {
+    font-size: 16px !important;
+  }
+
+  h2{
+  	font-size: 30px !important;
+  }
+
+  #div1{
+  	height: 275px !important;
+  	width: 100% !important;
+  	background-color: #ccccff;
+  	background-size: cover !important;
+  	border-radius: 50px 50px 0px 0px !important;
+  	padding: 10px !important;
+  }
+
+  #div2{
+  	height: 275px !important;
+  	width: 100% !important;
+  	background-color: #9999ff;
+  	background-size: cover !important;
+  	padding: 10px !important;
+  }
+
+  #div3{
+  	height: 325px !important;
+  	width: 100% !important;
+  	background-color: #6666ff;
+  	background-size: cover !important;
+  	border-radius: 0px 0px 50px 50px !important;
+  	padding: 10px !important;
+  }
+
+  #divx{
+  	height: 925px !important;
+  	width: 100% !important;
+  	background-color: #ff0000;
+  	background-size: cover !important;
+  	border-radius: 50px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div4{
+  	height: 1050px !important;
+  	width: 100% !important;
+  	background-color: #3333ff;
+  	background-size: cover !important;
+  	border-radius: 50px 50px 0px 0px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div5{
+  	height: 1125px !important;
+  	width: 100% !important;
+  	background-color: #0000e6;
+  	background-size: cover !important;
+  	border-radius: 0px 0px 50px 50px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div_ch{
+    width: auto !important;
+    position: relative;
+    padding-bottom: 90%;
+    height: 0;
+    overflow:hidden;
+    margin-left: -70px !important;
+  }
+
+  .btn-light{
+    width: 30% !important;
+    height: auto;
+    margin-top: -140px !important;
+    font-size: 13px;
+  }
+
+  .btn-dark{
+    width: 30% !important;
+    height: auto;
+    margin-top: -170px !important;
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  h3 {
+    font-size: 17px !important;
+  }
+
+  h2{
+  	font-size: 30px !important;
+  }
+
+  #div1{
+  	height: 275px !important;
+  	width: 100% !important;
+  	background-color: #ccccff;
+  	background-size: cover !important;
+  	border-radius: 50px 50px 0px 0px !important;
+  	padding: 10px !important;
+  }
+
+  #div2{
+  	height: 275px !important;
+  	width: 100% !important;
+  	background-color: #9999ff;
+  	background-size: cover !important;
+  	padding: 10px !important;
+  }
+
+  #div3{
+  	height: 325px !important;
+  	width: 100% !important;
+  	background-color: #6666ff;
+  	background-size: cover !important;
+  	border-radius: 0px 0px 50px 50px !important;
+  	padding: 10px !important;
+  }
+
+  #divx{
+  	height: 825px !important;
+  	width: 100% !important;
+  	background-color: #ff0000;
+  	background-size: cover !important;
+  	border-radius: 50px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div4{
+  	height: 875px !important;
+  	width: 100% !important;
+  	background-color: #3333ff;
+  	background-size: cover !important;
+  	border-radius: 50px 50px 0px 0px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div5{
+  	height: 975px !important;
+  	width: 100% !important;
+  	background-color: #0000e6;
+  	background-size: cover !important;
+  	border-radius: 0px 0px 50px 50px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div_ch{
+    width: auto !important;
+    position: relative;
+    margin-top: 30px !important;
+    padding-bottom: 80%;
+    height: 0;
+    overflow:hidden;
+    margin-left: -60px !important;
+  }
+
+  .btn-light{
+    width: 30% !important;
+    height: auto;
+    margin-top: -130px !important;
+    font-size: 13px;
+  }
+
+  .btn-dark{
+    width: 30% !important;
+    height: auto;
+    margin-top: -160px !important;
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+
+  #div1{
+  	height: 200px !important;
+  	width: 100% !important;
+  	background-color: #ccccff;
+  	background-size: cover !important;
+  	border-radius: 50px 50px 0px 0px !important;
+  	padding: 10px !important;
+  }
+
+  #div2{
+  	height: 200px !important;
+  	width: 100% !important;
+  	background-color: #9999ff;
+  	background-size: cover !important;
+  	padding: 10px !important;
+  }
+
+  #div3{
+  	height: 200px !important;
+  	width: 100% !important;
+  	background-color: #6666ff;
+  	background-size: cover !important;
+  	border-radius: 0px 0px 50px 50px !important;
+  	padding: 10px !important;
+  }
+
+  #divx{
+  	height: 650px !important;
+  	width: 100% !important;
+  	background-color: #ff0000;
+  	background-size: cover !important;
+  	border-radius: 50px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div4{
+  	height: 750px !important;
+  	width: 100% !important;
+  	background-color: #3333ff;
+  	background-size: cover !important;
+  	border-radius: 50px 50px 0px 0px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div5{
+  	height: 800px !important;
+  	width: 100% !important;
+  	background-color: #0000e6;
+  	background-size: cover !important;
+  	border-radius: 0px 0px 50px 50px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div_ch{
+    width: auto !important;
+    position: relative;
+    padding-bottom: 70%;
+    height: 0;
+    overflow:hidden;
+    margin-left: -60px !important;
+  }
+
+  .btn-light{
+    width: 30% !important;
+    height: auto;
+    margin-top: -120px !important;
+    font-size: 13px;
+  }
+
+  .btn-dark{
+    width: 30% !important;
+    height: auto;
+    margin-top: -150px !important;
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h3 {
+    font-size: 22px !important;
+  }
+
+  h2{
+  	font-size: 30px !important;
+  }
+
+  h1{
+  	font-size: 35px !important;
+  }
+
+  #div1{
+  	height: 200px !important;
+  	width: 100% !important;
+  	background-color: #ccccff;
+  	background-size: cover !important;
+  	border-radius: 50px 50px 0px 0px !important;
+  	padding: 10px !important;
+  }
+
+  #div2{
+  	height: 200px !important;
+  	width: 100% !important;
+  	background-color: #9999ff;
+  	background-size: cover !important;
+  	padding: 10px !important;
+  }
+
+  #div3{
+  	height: 200px !important;
+  	width: 100% !important;
+  	background-color: #6666ff;
+  	background-size: cover !important;
+  	border-radius: 0px 0px 50px 50px !important;
+  	padding: 10px !important;
+  }
+
+  #divx{
+  	height: 600px !important;
+  	width: 100% !important;
+  	background-color: #ff0000;
+  	background-size: cover !important;
+  	border-radius: 50px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div4{
+  	height: 650px !important;
+  	width: 100% !important;
+  	background-color: #3333ff;
+  	background-size: cover !important;
+  	border-radius: 50px 50px 0px 0px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div5{
+  	height: 675px !important;
+  	width: 100% !important;
+  	background-color: #0000e6;
+  	background-size: cover !important;
+  	border-radius: 0px 0px 50px 50px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div_ch{
+    width: auto !important;
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow:hidden;
+    margin-left: -90px !important;
+  }
+
+  .btn-light{
+    width: 30% !important;
+    height: auto;
+    margin-top: -110px !important;
+    font-size: 13px;
+  }
+
+  .btn-dark{
+    width: 30% !important;
+    height: auto;
+    margin-top: -115px !important;
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  #div1{
+  	height: 200px !important;
+  	width: 100% !important;
+  	background-color: #ccccff;
+  	background-size: cover !important;
+  	border-radius: 50px 50px 0px 0px !important;
+  	padding: 10px !important;
+  }
+
+  #div2{
+  	height: 200px !important;
+  	width: 100% !important;
+  	background-color: #9999ff;
+  	background-size: cover !important;
+  	padding: 10px !important;
+  }
+
+  #div3{
+  	height: 200px !important;
+  	width: 100% !important;
+  	background-color: #6666ff;
+  	background-size: cover !important;
+  	border-radius: 0px 0px 50px 50px !important;
+  	padding: 10px !important;
+  }
+
+  #divx{
+  	height: 600px !important;
+  	width: 100% !important;
+  	background-color: #ff0000;
+  	background-size: cover !important;
+  	border-radius: 50px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div4{
+  	height: 650px !important;
+  	width: 100% !important;
+  	background-color: #3333ff;
+  	background-size: cover !important;
+  	border-radius: 50px 50px 0px 0px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div5{
+  	height: 700px !important;
+  	width: 100% !important;
+  	background-color: #0000e6;
+  	background-size: cover !important;
+  	border-radius: 0px 0px 50px 50px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div_ch{
+    width: auto !important;
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow:hidden;
+    margin-left: -90px !important;
+  }
+
+  .btn-light{
+    width: 30% !important;
+    height: auto;
+    margin-top: -90px !important;
+    font-size: 13px;
+  }
+
+  .btn-dark{
+    width: 30% !important;
+    height: auto;
+    margin-top: -95px !important;
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  #div1{
+  	height: 200px !important;
+  	width: 100% !important;
+  	background-color: #ccccff;
+  	background-size: cover !important;
+  	border-radius: 50px 50px 0px 0px !important;
+  	padding: 10px !important;
+  }
+
+  #div2{
+  	height: 200px !important;
+  	width: 100% !important;
+  	background-color: #9999ff;
+  	background-size: cover !important;
+  	padding: 10px !important;
+  }
+
+  #div3{
+  	height: 200px !important;
+  	width: 100% !important;
+  	background-color: #6666ff;
+  	background-size: cover !important;
+  	border-radius: 0px 0px 50px 50px !important;
+  	padding: 10px !important;
+  }
+
+  #divx{
+  	height: 550px !important;
+  	width: 100% !important;
+  	background-color: #ff0000;
+  	background-size: cover !important;
+  	border-radius: 50px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div4{
+  	height: 600px !important;
+  	width: 100% !important;
+  	background-color: #3333ff;
+  	background-size: cover !important;
+  	border-radius: 50px 50px 0px 0px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div5{
+  	height: 625px !important;
+  	width: 100% !important;
+  	background-color: #0000e6;
+  	background-size: cover !important;
+  	border-radius: 0px 0px 50px 50px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div_ch{
+    width: auto !important;
+    position: relative;
+    padding-bottom: 35%;
+    height: 0;
+    overflow:hidden;
+    margin-left: -90px !important;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+  #div1{
+  	height: 200px !important;
+  	width: 100% !important;
+  	background-color: #ccccff;
+  	background-size: cover !important;
+  	border-radius: 50px 50px 0px 0px !important;
+  	padding: 10px !important;
+  }
+
+  #div2{
+  	height: 200px !important;
+  	width: 100% !important;
+  	background-color: #9999ff;
+  	background-size: cover !important;
+  	padding: 10px !important;
+  }
+
+  #div3{
+  	height: 200px !important;
+  	width: 100% !important;
+  	background-color: #6666ff;
+  	background-size: cover !important;
+  	border-radius: 0px 0px 50px 50px !important;
+  	padding: 10px !important;
+  }
+
+  #divx{
+  	height: 500px !important;
+  	width: 100% !important;
+  	background-color: #ff0000;
+  	background-size: cover !important;
+  	border-radius: 50px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div4{
+  	height: 550px !important;
+  	width: 100% !important;
+  	background-color: #3333ff;
+  	background-size: cover !important;
+  	border-radius: 50px 50px 0px 0px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div5{
+  	height: 550px !important;
+  	width: 100% !important;
+  	background-color: #0000e6;
+  	background-size: cover !important;
+  	border-radius: 0px 0px 50px 50px !important;
+  	color: #fff !important;
+  	padding: 10px !important;
+  }
+
+  #div_ch{
+    width: auto !important;
+    position: relative;
+    padding-bottom: 30%;
+    height: 0;
+    overflow:hidden;
+  }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+blockquote.twitter-tweet{
+  width: 100% !important;
+  background-color: #fff !important;
+  height: 200px !important;
+}
+
+iframe{
+
+  width: 100%;
+  height: 300px;
+  border: none;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.card-body{
+
+  background-color: #f0f5f5;
+  background-size: cover !important;
+}
+
+.card{
+
+  border: none;
+}
+
+#jumbo2{
+
+  width: 100% !important;
+  height: 300px !important;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+  background-color: #f0f5f5;
+}
