@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fight Covid - Helpline Numbers & Probability Check</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script data-ad-client="ca-pub-4228071292466393" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="probab.js"></script>
+	<style type="text/css">
+		@media screen and (min-width: 320px) 
+		{
+			.btn-light
+			{
+				margin-top: -75px !important;
+			}
+			.btn-dark
+			{
+				margin-top: -5px !important;
+			}
+		}
+		@media screen and (min-width: 768px) 
+		{
+			.btn-light
+			{
+				margin-top: -75px !important;
+			}
+			.btn-dark
+			{
+				margin-top: -75px !important;
+			}
+		}
+		@media screen and (min-width: 1440px) 
+		{
+			.btn-light
+			{
+				margin-top: -75px !important;
+			}
+			.btn-dark
+			{
+				margin-top: -65px !important;
+			}
+		}
+	</style>
+</head>
+<body id="main">
+	<nav class="navbar navbar-expand-sm bg-light fixed-top" id="navs">
+	  <a class = "nav-link" href="index.html" style="font-family: Acme; color: #fff; font-size: 30px;">Fight Covid</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	    <span class="navbar-toggler-icon">
+	    	<i class="fa fa-navicon ham" style="color:#fff; font-size:28px;"></i>
+	    </span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item">
+	        <a class="nav-link" href="prob.html" style="font-family: Roboto Condensed; color: #fff; font-size: 15px; margin-left: 10px;">Helpline Numbers and Probability Check</a>
+	      </li> 
+	    </ul>
+	  </div>  
+	</nav>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<div id="btn_line">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6" align="center">
+				<button type="button" onclick="light()" class="btn btn-light">Light</button>
+			</div>
+			<div class="col-md-6" align="center">
+				<button type="button" onclick="dark()" class="btn btn-dark">Dark</button>
+			</div>
+		</div>
+	</div>
+</div>
+<br>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h2 style="font-family: Kanit;">Get Helpline Numbers:</h2>
+			<input type="text" id="state" class="form-control" style="text-transform: uppercase; font-family: Roboto Condensed;" placeholder="Enter the full name of your state or Union territory.">
+			<br>
+			<button type="button" class="btn btn-danger" onclick="Hnos()">Get Numbers</button>
+			<br>
+			<br>
+			<div id="new"></div>
+			<br>
+			<hr>
+			<br>
+			<h2 style="font-family: Kanit;">Get a Risk Calculating Probability Check:</h2>
+			<input type="number" id="age" class="form-control" style="text-transform: uppercase; font-family: Roboto Condensed;" placeholder="Enter your age">
+			<br>
+			<input type="text" id="troub_breath" class="form-control" style="text-transform: uppercase; font-family: Roboto Condensed;" placeholder ="Have trouble breathing?">
+			<br>
+			<input type="text" id="fever" class="form-control" style="text-transform: uppercase; font-family: Roboto Condensed;" placeholder="Do You Have a Fever?">
+			<br>
+			<input type="text" id="d_cough" class="form-control" style="text-transform: uppercase; font-family: Roboto Condensed;" placeholder="Do you have a dry cough?">
+			<br>
+			<input type="text" id="tire" class="form-control" style="text-transform: uppercase; font-family: Roboto Condensed;" placeholder="Do you feel tired?">
+			<br>
+			<input type="text" id="n_congest" class="form-control" style="text-transform: uppercase; font-family: Roboto Condensed;" placeholder="Do you experience Nasal Congestion?">
+			<br>
+			<input type="text" id="diarr" class="form-control" style="text-transform: uppercase; font-family: Roboto Condensed;" placeholder="Do you have Diarrhea (Loose motions)?">
+			<br>
+			<input type="text" id="c_in_apt" class="form-control" style="text-transform: uppercase; font-family: Roboto Condensed;" placeholder="Are you experiencing a change in apetite?">
+			<br>
+			<input type="text" id="pres_chest" class="form-control" style="text-transform: uppercase; font-family: Roboto Condensed;" placeholder="Do you experience Chest pain or pressure in the chest?">
+			<br>
+			<input type="text" id="travel" class="form-control" style="text-transform: uppercase; font-family: Roboto Condensed;" placeholder="Do you have any recent Travel History?">
+			<br>
+			<button type="button" class="btn btn-danger" onclick="probab()">Get Result</button>
+			<br>
+			<br>
+			<div id="new1"></div>
+			<br>
+			<div id="new2"></div>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h4 style="font-family: Roboto Condensed; font-size: 15px;" align="center">
+					Copyright 2020, Fight Covid.
+				</h4>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

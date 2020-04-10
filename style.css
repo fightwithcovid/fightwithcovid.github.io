@@ -3,7 +3,7 @@ body{
 	width: 100% !important;
 }
 .parallax {
-  background-image: url("virus.jpg");
+  background-image: url("virus.jpeg");
   min-height: 500px; 
   background-attachment: fixed;
   background-position: center;
@@ -101,6 +101,10 @@ button{
 
 a{
 	text-decoration: none !important;
+}
+
+i{
+  margin-top: -20px !important;
 }
 
 #navs{
