@@ -286,7 +286,7 @@ function probab() {
 
 	var troub_breath =document.getElementById('troub_breath').value;
 	var diab = document.getElementById('diab').value;
-	var bp = document.getElementById('bp').value;
+	var bp = document.getElementById('b_pres').value;
 	var fever =  document.getElementById('fever').value;
 	var d_cough =  document.getElementById('d_cough').value;
 	var tire =  document.getElementById('tire').value;
