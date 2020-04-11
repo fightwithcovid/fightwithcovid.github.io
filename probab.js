@@ -285,6 +285,8 @@ function probab() {
 	var age = document.getElementById('age').value;
 
 	var troub_breath =document.getElementById('troub_breath').value;
+	var diab = document.getElementById('diab').value;
+	var bp = document.getElementById('bp').value;
 	var fever =  document.getElementById('fever').value;
 	var d_cough =  document.getElementById('d_cough').value;
 	var tire =  document.getElementById('tire').value;
@@ -313,6 +315,22 @@ function probab() {
 	}
 
 	if (troub_breath == 'yes') 
+	{
+		sum += 1;
+	}
+	else
+	{
+		sum += 0;
+	}
+	if (diab == 'yes') 
+	{
+		sum += 1;
+	}
+	else
+	{
+		sum += 0;
+	}
+	if (bp == 'yes') 
 	{
 		sum += 1;
 	}
@@ -385,7 +403,7 @@ function probab() {
 		sum += 0;
 	}
 
-	var percent_risk = (sum * 100)/9;
+	var percent_risk = (sum * 100)/11;
 	document.getElementById('new2').innerHTML = percent_risk;
 
 	if (percent_risk >= 75) 
