@@ -3,7 +3,7 @@ body{
 	width: 100% !important;
 }
 .parallax {
-  background-image: url("virus.jpeg");
+  background-image: url("virus.jpg");
   min-height: 500px; 
   background-attachment: fixed;
   background-position: center;
@@ -187,7 +187,7 @@ i{
   }
 
   #divx{
-  	height: 1050px !important;
+  	height: 1300px !important;
   	width: 100% !important;
   	background-color: #ff0000;
   	background-size: cover !important;
@@ -197,7 +197,7 @@ i{
   }
 
   #div4{
-  	height: 1150px !important;
+  	height: 1400px !important;
   	width: 100% !important;
   	background-color: #3333ff;
   	background-size: cover !important;
@@ -207,7 +207,7 @@ i{
   }
 
   #div5{
-  	height: 1275px !important;
+  	height: 1475px !important;
   	width: 100% !important;
   	background-color: #0000e6;
   	background-size: cover !important;
@@ -276,7 +276,7 @@ i{
   }
 
   #divx{
-  	height: 925px !important;
+  	height: 1225px !important;
   	width: 100% !important;
   	background-color: #ff0000;
   	background-size: cover !important;
@@ -286,7 +286,7 @@ i{
   }
 
   #div4{
-  	height: 1050px !important;
+  	height: 1325px !important;
   	width: 100% !important;
   	background-color: #3333ff;
   	background-size: cover !important;
@@ -296,7 +296,7 @@ i{
   }
 
   #div5{
-  	height: 1125px !important;
+  	height: 1325px !important;
   	width: 100% !important;
   	background-color: #0000e6;
   	background-size: cover !important;
@@ -365,7 +365,7 @@ i{
   }
 
   #divx{
-  	height: 825px !important;
+  	height: 1160px !important;
   	width: 100% !important;
   	background-color: #ff0000;
   	background-size: cover !important;
@@ -375,7 +375,7 @@ i{
   }
 
   #div4{
-  	height: 875px !important;
+  	height: 1150px !important;
   	width: 100% !important;
   	background-color: #3333ff;
   	background-size: cover !important;
@@ -385,7 +385,7 @@ i{
   }
 
   #div5{
-  	height: 975px !important;
+  	height: 1140px !important;
   	width: 100% !important;
   	background-color: #0000e6;
   	background-size: cover !important;
@@ -448,7 +448,7 @@ i{
   }
 
   #divx{
-  	height: 650px !important;
+  	height: 925px !important;
   	width: 100% !important;
   	background-color: #ff0000;
   	background-size: cover !important;
@@ -458,7 +458,7 @@ i{
   }
 
   #div4{
-  	height: 750px !important;
+  	height: 975px !important;
   	width: 100% !important;
   	background-color: #3333ff;
   	background-size: cover !important;
@@ -468,7 +468,7 @@ i{
   }
 
   #div5{
-  	height: 800px !important;
+  	height: 1000px !important;
   	width: 100% !important;
   	background-color: #0000e6;
   	background-size: cover !important;
@@ -541,7 +541,7 @@ i{
   }
 
   #divx{
-  	height: 600px !important;
+  	height: 850px !important;
   	width: 100% !important;
   	background-color: #ff0000;
   	background-size: cover !important;
@@ -551,7 +551,7 @@ i{
   }
 
   #div4{
-  	height: 650px !important;
+  	height: 900px !important;
   	width: 100% !important;
   	background-color: #3333ff;
   	background-size: cover !important;
@@ -561,7 +561,7 @@ i{
   }
 
   #div5{
-  	height: 675px !important;
+  	height: 850px !important;
   	width: 100% !important;
   	background-color: #0000e6;
   	background-size: cover !important;
@@ -623,7 +623,7 @@ i{
   }
 
   #divx{
-  	height: 600px !important;
+  	height: 850px !important;
   	width: 100% !important;
   	background-color: #ff0000;
   	background-size: cover !important;
@@ -633,7 +633,7 @@ i{
   }
 
   #div4{
-  	height: 650px !important;
+  	height: 900px !important;
   	width: 100% !important;
   	background-color: #3333ff;
   	background-size: cover !important;
@@ -643,7 +643,7 @@ i{
   }
 
   #div5{
-  	height: 700px !important;
+  	height: 850px !important;
   	width: 100% !important;
   	background-color: #0000e6;
   	background-size: cover !important;
@@ -705,7 +705,7 @@ i{
   }
 
   #divx{
-  	height: 550px !important;
+  	height: 800px !important;
   	width: 100% !important;
   	background-color: #ff0000;
   	background-size: cover !important;
@@ -715,7 +715,7 @@ i{
   }
 
   #div4{
-  	height: 600px !important;
+  	height: 850px !important;
   	width: 100% !important;
   	background-color: #3333ff;
   	background-size: cover !important;
@@ -725,7 +725,7 @@ i{
   }
 
   #div5{
-  	height: 625px !important;
+  	height: 825px !important;
   	width: 100% !important;
   	background-color: #0000e6;
   	background-size: cover !important;
@@ -773,7 +773,7 @@ i{
   }
 
   #divx{
-  	height: 500px !important;
+  	height: 790px !important;
   	width: 100% !important;
   	background-color: #ff0000;
   	background-size: cover !important;
@@ -783,7 +783,7 @@ i{
   }
 
   #div4{
-  	height: 550px !important;
+  	height: 800px !important;
   	width: 100% !important;
   	background-color: #3333ff;
   	background-size: cover !important;
@@ -793,7 +793,7 @@ i{
   }
 
   #div5{
-  	height: 550px !important;
+  	height: 725px !important;
   	width: 100% !important;
   	background-color: #0000e6;
   	background-size: cover !important;
