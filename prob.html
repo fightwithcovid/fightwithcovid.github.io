@@ -13,9 +13,35 @@
 	<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script data-ad-client="ca-pub-4228071292466393" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165441009-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-165441009-1');
+  </script>
+
 	<link rel="stylesheet" href="style.css">
 	<script type="text/javascript" src="probab.js"></script>
 	<style type="text/css">
+		.modal-content{
+			border: 0px;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+			border-radius: 20px;
+		}
+
+    .close{
+      color: #0099ff !important;
+    }
+
+    .dropdown-menu{
+      border: 0px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+      border-radius: 20px;
+    }
+
 		@media screen and (min-width: 320px) 
 		{
 			.btn-light
@@ -26,6 +52,18 @@
 			{
 				margin-top: -5px !important;
 			}
+      .b2
+      {
+        margin-top: 5px !important;
+      }
+      .b3
+      {
+        margin-top: 5px !important;
+      }
+      .b4
+      {
+        margin-top: 5px !important;
+      }
 		}
 		@media screen and (min-width: 768px) 
 		{
@@ -37,6 +75,18 @@
 			{
 				margin-top: -75px !important;
 			}
+      .b2
+      {
+        margin-top: 5px !important;
+      }
+      .b3
+      {
+        margin-top: 5px !important;
+      }
+      .b4
+      {
+        margin-top: 5px !important;
+      }
 		}
 		@media screen and (min-width: 1440px) 
 		{
@@ -48,6 +98,18 @@
 			{
 				margin-top: -65px !important;
 			}
+      .b2
+      {
+        margin-top: 5px !important;
+      }
+      .b3
+      {
+        margin-top: 5px !important;
+      }
+      .b4
+      {
+        margin-top: 5px !important;
+      }
 		}
 	</style>
 </head>
@@ -62,7 +124,7 @@
 	  <div class="collapse navbar-collapse" id="collapsibleNavbar">
 	    <ul class="navbar-nav ml-auto">
 	      <li class="nav-item">
-	        <a class="nav-link" href="prob.html" style="font-family: Roboto Condensed; color: #fff; font-size: 15px; margin-left: 10px;">Helpline Numbers and Probability Check</a>
+	        <a class="nav-link" href="prob.html" style="font-family: Roboto Condensed; color: #fff; font-size: 15px; margin-left: 10px;">COVID Info</a>
 	      </li> 
 	    </ul>
 	  </div>  
@@ -72,6 +134,7 @@
 <br>
 <br>
 <br><br>
+
 <div id="btn_line">
 	<div class="container">
 		<div class="row">
@@ -86,19 +149,257 @@
 </div>
 <br>
 <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 style="font-family: Kanit;">Know the Novel Coronavirus:</h2>
+      <hr>
+    </div>
+  </div>
+</div>
+<br>
+<div class="container">
+	<div class="row"> 
+		<div class="col-md-3" align="center">
+			<button type="button" class="btn btn-primary b1" data-toggle="modal" data-target="#myths">Fact Checks</button>
+		</div>
+		<br>
+		<div class="col-md-3" align="center">
+			<button type="button" class="btn btn-primary b2" data-toggle="modal" data-target="#protect">Protect Yourself</button>
+		</div>
+		<br>
+		<div class="col-md-3" align="center">
+			<button type="button" class="btn btn-primary b3" data-toggle="modal" data-target="#sd">Social Distancing</button>
+		</div>
+		<br>
+		<div class="col-md-3" align="center">
+			<div class="dropdown">
+				<button type="button" class="btn btn-primary b4" data-toggle="dropdown" data-target="#zones">Zones</button>
+				<div class="dropdown-menu">
+				    <a class="dropdown-item" href="#red" data-toggle="modal">Red Zone</a>
+				    <a class="dropdown-item" href="#orange" data-toggle="modal">Orange Zone</a>
+				    <a class="dropdown-item" href="#green" data-toggle="modal">Green Zone</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal" id="myths">
+    <div class="modal-dialog">
+      	<div class="modal-content" id="chng" style="background-color: #f0f5f5">
+        	<div class="modal-header">
+          		<h2 class="modal-title" style="margin-top: 40px; font-family: Kanit; padding: 10px;">Fact Checks, Busting Myths!</h2>
+          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+        	</div>
+        	<div class="modal-body">
+          		<h4 style="font-family: Roboto Condensed; padding: 10px;">
+          			FAKE NEWS: 
+          			<br><br>
+          			We all are good at sharing stuff and mostly the false stuff. These fake messages are made viral on WhatsApp groups which could be dangerous ahead. Stay away from rumours and myths...
+          			<br><br>
+          			                                  Myth Busters:
+          			<br><br>
+          			•	Cold weather CANNOT kill the Coronavirus.
+          			<br><br>
+          			•	Corona virus cannot be killed by use of hairdryers.
+          			<br><br>
+          			•	Garlic cannot prevent Covid-19.
+          			<br><br>
+          			•	Thermal scanners can only detect fever. They don't detect whether or not someone has the virus.
+          			<br><br>
+          			•	Coronavirus cannot be transmitted through mosquito bites.
+          			<br><br>
+          			•	No medicine or vaccine is available till date.
+          			<br><br>
+          			•	Drinking alcohol does not protect one from the virus.
+          			<br><br>
+          			•	Antibiotics are ineffective against the virus.
+          		</h4>
+        	</div>
+      	</div>
+    </div>
+</div>
+
+<div class="modal" id="protect">
+    <div class="modal-dialog">
+      	<div class="modal-content" id="chng1" style="background-color: #f0f5f5">
+        	<div class="modal-header">
+          		<h2 style="margin-top: 40px; font-family: Kanit; padding: 10px;">So how are we suppose to protect ourselves?</h2>
+          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+        	</div>
+        	<div class="modal-body">
+          		<h3 style="font-family: Kanit; padding: 10px;">Here is a list of preacutions that can be taken:</h3><br>
+          		<h4 style="font-family: Roboto Condensed; padding: 10px;">
+          			Some Precautions established by WHO and Government of India:
+          			<br><br>
+          			1) Wash your hands often with soap and water for at least 20 seconds, especially after you have been in a public place or after blowing your nose, coughing or sneezing.
+          			<br><br>
+          			2) Maintain at least 1 meter (3 feet) distance between yourself and anyone who is coughing or sneezing.
+          			<br><br>
+          			3) Cover your mouth and nose with a tissue when you cough or sneeze or use the inside of your elbow. 
+          			<br><br>
+          			4) If you have fever, cough and difficulty in breathing, seek medical care early.	
+          			<br><br>
+          			5) Clean and disinfect touched surfaces frequently. 
+          			<br><br>
+          			6) Avoid touching your eyes, nose and mouth.
+          			<br><br>
+          			7) Stay home if you feel unwell. 
+          			<br><br>
+          			8) Wear a facemask if you are sick.
+          			<br><br>
+          			9) Avoid Mass Gathering.
+          		</h4>
+        	</div>
+      	</div>
+    </div>
+</div>
+
+<div class="modal" id="sd">
+    <div class="modal-dialog">
+      	<div class="modal-content" id="chng2" style="background-color: #f0f5f5">
+        	<div class="modal-header">
+          		<h2 style="margin-top: 40px; font-family: Kanit; padding: 10px;">What is Social Distancing? How is it useful?</h2>
+          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+        	</div>
+        	<div class="modal-body">
+          		<h4 style="font-family: Roboto Condensed; padding: 10px;">
+          			As much as it is difficult to stay away 
+          			from your loved ones it has become 
+          			necessary to maintain some distance for safety of you and your loved ones....
+          			<br><br>
+          			1) Stay indoors. Be with your family. 
+          			Give them time but at the same time maintain a TOUCH ME NOT POLICY.
+          			<br><br>
+          			2) Avoid unnecessary travel, after all this is the best time to get cosy in a bed and binge watch your favourite TV shows...
+          			<br><br>
+          			3) As viruses spread on contact, say good bye to high-fives and embrace fist -bumps, 
+          			elbow bumps.
+          			<br><br>
+          			4) Avoid touching your face, eyes, mouth and nose, as those are the primary entry points for the virus in your body.
+          			<br><br>
+          			5) Don't visit, but video call you relatives, friends.
+          			<br><br>
+          			6) Avoid all forms of social gatherings.
+          			<br><br>
+          			7) Lastly, this is your only chance in your life to save the world lying at home in front of the TV. Don't mess this up!!!
+          			<br>
+          			<br>
+          			Contact WHO directly: <button type="button" class="btn btn-warning"><a href="https://api.whatsapp.com/send?phone=+41-79-893-1892" target="_blank">Chat with WHO</a></button>
+          		</h4>
+        	</div>
+      	</div>
+    </div>
+</div>
+
+<div class="modal" id="red">
+    <div class="modal-dialog">
+      	<div class="modal-content">
+        	<div class="modal-header" style="background-color: #ff0000; padding: 15px; border-top-left-radius: 20px; border-top-right-radius: 20px;">
+          		<h2 style="font-family: Kanit;">Know the zones:</h2>
+          		<button type="button" class="close" data-dismiss="modal" style="color: #fff;">&times;</button>
+        	</div>
+        	<div class="modal-body" style="background-color: #ff0000; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
+          		<h4 style="font-family: Roboto Condensed; padding: 10px;">
+          		Red Zones:
+          		<br><br>
+          		These are the districts indentified taing into account the total number of active cases, doubling rate of confirmed cases, extent of testing and surveillance feedback from the districts.
+          		<br><br>
+          		Activities Prohibited:
+          		<br><br>
+          		1) Running of taxis and and auto rickshaws
+          		<br><br>
+          		2) Intra-district and inter-district plying of buses.
+          		<br><br>
+          		3) Shops in urban areas, for non-essential goods,malls, markets and market complexes.
+          		<br><br>
+          		Activities Allowed:
+          		<br><br> 
+          		1) A maximum of 2 persons (besides the driver) in four-wheeler vehicles, and with no pillion rider in the case of two-wheelers allowed only for permitted activities. 
+          		<br><br>
+          		2) Manufacturing units of essential goods.
+          		<br><br>
+          		3) All standalone, neighborhood and shops in residential complexes to remain open in urban areas, without any distinction of essential and non-essential.
+          		<br><br>
+          		4) E-Commerce activities, in the Red Zones, are permitted only in respect of essential goods.
+          		</h4>
+        	</div>
+      	</div>
+    </div>
+</div>
+
+
+<div class="modal" id="green">
+    <div class="modal-dialog">
+      	<div class="modal-content">
+        	<div class="modal-header" style="background-color: #cccc00; color: #000; padding: 15px; border-top-left-radius: 20px;
+          border-top-right-radius: 20px;">
+          		<h2 style="font-family: Kanit;">Know the zones:</h2>
+          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+        	</div>
+        	<div class="modal-body" style="background-color: #cccc00; color: #000; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
+          		<h4 style="font-family: Roboto Condensed; padding: 10px;">
+          		Green Zones:
+              <br><br>
+              Districts with zero confirmed cases till date or no confirmed cases in the last 21 days.
+              <br><br>
+              Activites Allowed:
+              <br><br>
+              In the Green Zones, all activities are permitted except the limited number of activities which are prohibited throughout the country, irrespective of the Zone.
+              <br><br> 
+              1)Buses can operate with upto 50% seating capacity and bus depots can operate with upto 50% capacity.
+              <br><br>
+              2)Social Distancing and other precautionary norms to be followed.
+        	</div>
+      	</div>
+    </div>
+</div>
+
+
+<div class="modal" id="orange">
+    <div class="modal-dialog">
+      	<div class="modal-content">
+        	<div class="modal-header" style="background-color: #ffa500; color: #000; padding: 15px; border-top-left-radius: 20px; border-top-right-radius: 20px;">
+          		<h2 style="font-family: Kanit;">Know the zones:</h2>
+          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+        	</div>
+        	<div class="modal-body" style="background-color: #ffa500; color: #000; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
+          		<h4 style="font-family: Roboto Condensed; padding: 10px;">
+          		Orange Zones:
+              <br><br>
+              Those districts, which are neither defined as Red nor Green, shall be classified as Orange zones.
+              <br><br>
+              Activities Prohibited:
+              <br><br>
+              1)Inter ans Intra district plying of buses.
+              <br><br>
+              Activities allowed:
+              <br><br>
+              In addition to activities permitted in Red Zone.
+              1)Taxis and cab aggregators will be permitted with 1 driver and 2 passengers only. 
+              <br><br>
+              2)Inter-district movement of individuals and vehicles will be allowed for permitted activities only.
+        	</div>
+      	</div>
+    </div>
+</div>
+<br>
+<br>
+
+<div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<h2 style="font-family: Kanit;">Get Helpline Numbers:</h2><br><h2 style="font-family: Kanit;">Enter as example: Jammu And Kashmir.</h2>
+      <hr>
+			<h2 style="font-family: Kanit;">Get Helpline Numbers:</h2><br><h2 style="font-family: Kanit;">
 			<input type="text" id="state" class="form-control" style="text-transform: uppercase; font-family: Roboto Condensed;" placeholder="Enter the full name of your state or Union territory.">
 			<br>
 			<button type="button" class="btn btn-danger" onclick="Hnos()">Get Numbers</button>
 			<br>
 			<br>
 			<div id="new"></div>
-			<br>
 			<hr>
 			<br>
-			<h2 style="font-family: Kanit;">Get a Risk Calculating Probability Check:</h2><br><h2 style="font-family: Kanit;">Answer in Yes or No types:</h2>
+			<h2 style="font-family: Kanit;">Get a Risk Calculating Probability Check:</h2><br><h2 style="font-family: Kanit;">Answer these simple yes or no questions:</h2>
 			<input type="number" id="age" class="form-control" style="text-transform: uppercase; font-family: Roboto Condensed;" placeholder="Enter your age">
 			<br>
 			<input type="text" id="troub_breath" class="form-control" style="text-transform: uppercase; font-family: Roboto Condensed;" placeholder ="Have trouble breathing?">

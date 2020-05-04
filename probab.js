@@ -2,11 +2,23 @@ function light()
 {
 	document.getElementById('main').style.backgroundColor = "#f0f5f5";
 	document.getElementById('main').style.color = "#000";
+	document.getElementById('chng').style.backgroundColor = "#f0f5f5";
+	document.getElementById('chng').style.color = "#000";
+	document.getElementById('chng1').style.backgroundColor = "#f0f5f5";
+	document.getElementById('chng1').style.color = "#000";
+	document.getElementById('chng2').style.backgroundColor = "#f0f5f5";
+	document.getElementById('chng2').style.color = "#000";
 }
 function dark()
 {
 	document.getElementById('main').style.backgroundColor = "#000";
 	document.getElementById('main').style.color = "#fff";
+	document.getElementById('chng').style.backgroundColor = "#404040";
+	document.getElementById('chng').style.color = "#fff";
+	document.getElementById('chng1').style.backgroundColor = "#404040";
+	document.getElementById('chng1').style.color = "#fff";
+	document.getElementById('chng2').style.backgroundColor = "#404040";
+	document.getElementById('chng2').style.color = "#fff";
 }
 
 function Hnos(){	

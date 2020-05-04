@@ -15,9 +15,9 @@ function dark()
 	document.getElementById('main').style.color = "#fff";
 	document.getElementById('div2').style.backgroundColor = "#ff9900";
 	document.getElementById('div3').style.backgroundColor = "#cc7a00";
-	document.getElementById('divx').style.backgroundColor = "#ff3300";
-	document.getElementById('div4').style.backgroundColor = "#ffa31a";
-	document.getElementById('div5').style.backgroundColor = "#e68a00";
+	//document.getElementById('divx').style.backgroundColor = "#ff3300";
+	//document.getElementById('div4').style.backgroundColor = "#ffa31a";
+	//document.getElementById('div5').style.backgroundColor = "#e68a00";
 	document.getElementById('jumbo').style.backgroundColor = "#404040";
 	document.getElementById('jumbo2').style.backgroundColor = "#000";
 	document.getElementById('divch').style.backgroundColor = "#cc0000";
