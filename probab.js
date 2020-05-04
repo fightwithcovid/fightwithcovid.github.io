@@ -175,115 +175,115 @@ function Hnos(){
 		}
 	];
 
-	if (x == 'Andhra Pradesh') {
+	if (x == 'Andhra Pradesh' || x == 'andhra pradesh' || x == 'Andhra pradesh' || x == 'ANDHRA PRADESH') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[0].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[0].ph + '</h3>';
 	}
-	else if (x == 'Arunachal Pradesh') {
+	else if (x == 'Arunachal Pradesh' || x == 'arunachal pradesh' || x == 'Arunachal pradesh' || x == 'ARUNACHAL PRADESH') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[1].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[1].ph + '</h3>';
 	}
-	else if (x == 'Assam') {
+	else if (x == 'Assam' || x == 'assam' || x == 'ASSAM') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[2].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[2].ph + '</h3>';
 	}
-	else if (x == 'Bihar') {
+	else if (x == 'Bihar' || x == 'bihar' || x == 'BIHAR') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[3].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[3].ph + '</h3>';;
 	}
-	else if (x == 'Chhattisgarh') {
+	else if (x == 'Chhattisgarh' || x == 'chhattisgarh' || x == 'CHHATTISGARH') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[4].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[4].ph + '</h3>';;
 	}
-	else if (x == 'Goa') {
+	else if (x == 'Goa' || x == 'goa' || x == 'GOA') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[5].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[5].ph + '</h3>';;
 	}
-	else if (x == 'Gujarat') {
+	else if (x == 'Gujarat' || x == 'gujarat' || x == 'GUJARAT') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[6].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[6].ph + '</h3>';;
 	}
-	else if (x == 'Haryana') {
+	else if (x == 'Haryana' || x == 'haryana' || x == 'HARYANA') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[7].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[7].ph + '</h3>';;
 	}
-	else if (x == 'Himachal Pradesh') {
+	else if (x == 'Himachal Pradesh' || x == 'himachal pradesh' || x == 'HIMACHAL PRADESH' || x == 'Himachal pradesh') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[8].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[8].ph + '</h3>';;
 	}
-	else if (x == 'Jharkhand') {
+	else if (x == 'Jharkhand' || x == 'jharkhand' || x == 'JHARKHAND') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[9].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[9].ph + '</h3>';;
 	}
-	else if (x == 'Karnataka') {
+	else if (x == 'Karnataka' || x == 'karnataka' || x == 'KARNATAKA') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[10].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[10].ph + '</h3>';;
 	}
-	else if (x == 'Kerala') {
+	else if (x == 'Kerala' || x == 'kerala' || x == 'KERALA') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[11].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[11].ph + '</h3>';;
 	}
-	else if (x == 'Madhya pradesh') {
+	else if (x == 'Madhya Pradesh' || x == 'madhya pradesh' || x == 'MADHYA PRADESH' || x == 'Madhya pradesh') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[12].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[12].ph + '</h3>';;
 	}
-	else if (x == 'Maharashtra') {
+	else if (x == 'Maharashtra' || x == 'maharashtra' || x == 'MAHARASHTRA') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[13].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[13].ph + '</h3>';;
 	}
-	else if (x == 'Manipur') {
+	else if (x == 'Manipur' || x == 'manipur' || x == 'MANIPUR') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[14].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[14].ph + '</h3>';;
 	}
-	else if (x == 'Meghalaya') {
+	else if (x == 'Meghalaya' || x == 'meghalaya' || x == 'MEGHALAYA') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[15].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[15].ph + '</h3>';;
 	}
-	else if (x == 'Mizoram') {
+	else if (x == 'Mizoram' || x == 'mizoram' || x == 'MIZORAM') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[16].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[16].ph + '</h3>';;
 	}
-	else if (x == 'Nagaland') {
+	else if (x == 'Nagaland' || x == 'nagaland' || x == 'NAGALAND') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[17].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[17].ph + '</h3>';;
 	}
-	else if (x == 'Odisha') {
+	else if (x == 'Odisha' || x == 'odisha' || x == 'ODISHA') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[18].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[18].ph + '</h3>';;
 	}
-	else if (x == 'Punjab') {
+	else if (x == 'Punjab' || x == 'punjab' || x == 'PUNJAB') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[19].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[19].ph + '</h3>';;
 	}
-	else if (x == 'Rajasthan') {
+	else if (x == 'Rajasthan' || x == 'rajasthan' || x == 'RAJASTHAN') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[20].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[20].ph + '</h3>';;
 	}
-	else if (x == 'Sikkim') {
+	else if (x == 'Sikkim' || x == 'sikkim' || x == 'SIKKIM') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[21].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[21].ph + '</h3>';;
 	}
-	else if (x == 'Tammil nadu') {
+	else if (x == 'Tammil nadu' || x == 'tamil nadu' || x == 'Tamil nadu' || x == 'TAMIL NADU') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[22].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[22].ph + '</h3>';;
 	}
-	else if (x == 'Telangana') {
+	else if (x == 'Telangana' || x == 'telangana' || x == 'TELANGANA') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[23].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[23].ph + '</h3>';;
 	}
-	else if (x == 'Tripura') {
+	else if (x == 'Tripura' || x == 'tripura' || x == 'TRIPURA') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[24].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[24].ph + '</h3>';;
 	}
-	else if (x == 'Uttarakhand') {
+	else if (x == 'Uttarakhand' || x == 'uttarakhand' || x == 'UTTARAKHAND') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[25].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[25].ph + '</h3>';;
 	}
-	else if (x == 'Uttar pradesh') {
+	else if (x == 'Uttar Pradesh' || x == 'uttar pradesh' || x == 'UTTAR PRADESH' || x == 'Uttar pradesh') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[26].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[26].ph + '</h3>';;
 	}
-	else if (x == 'West bengal') {
+	else if (x == 'West Bengal' || x == 'west bengal' || x == 'WEST BENGAL' || x == 'West bengal') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[27].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[27].ph + '</h3>';;
 	}
-	else if (x == 'Andaman And Nicobar Islands') {
+	else if (x == 'Andaman And Nicobar Islands' || x == 'andaman and nicobar islands' || x == 'andaman & nicobar islands' || x == 'ANDAMAN AND NICOBAR ISLANDS' || x == 'ANDAMAN & NICOBAR ISLANDS' || x == 'Andaman and nicobar islands' || x == 'Andaman & nicobar islands') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[28].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[28].ph + '</h3>';;
 	}
-	else if (x == 'Chandigarh') {
+	else if (x == 'Chandigarh' || x == 'chandigarh' || x == 'CHANDIGARH') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[29].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[29].ph + '</h3>';;
 	}
-	else if (x == 'Dadra And Nagar Haveli') {
+	else if (x == 'Dadra And Nagar Haveli' || x == 'dadra and nagar haveli' || x == 'dadra & nagar haveli' || x == 'DADRA AND NAGAR HAVELI' || x == 'DADRA & NAGAR HAVELI' || x == 'Dadra and nagar haveli' || x == 'Dadra & nagar haveli') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[30].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[30].ph + '</h3>';;
 	}
-	else if (x == 'Daman And Diu') {
+	else if (x == 'Daman And Diu' || x == 'daman and diu' || x == 'daman & diu' || x == 'DAMAN AND DIU' || x == 'DAMAN & DIU' || x == 'Daman and diu' || x == 'Daman & diu') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[31].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[31].ph + '</h3>';;
 	}
-	else if (x == 'Delhi') {
+	else if (x == 'Delhi' || x == 'delhi' || x == 'DELHI') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[32].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[32].ph + '</h3>';;
 	}
-	else if (x == 'Jammu and Kashmir') {
+	else if (x == 'Jammu And Kashmir' || x == 'jammu and kashmir' || x == 'jammu & kashmir' || x == 'JAMMU AND KASHMIR' || x == 'JAMMU & KASHMIR' ||  x == 'Jammu and kashmir' || x == 'Jammu & kashmir') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[33].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[33].ph + '</h3>';;
 	}
-	else if (x == 'Ladakh') {
+	else if (x == 'Ladakh' || x == 'ladakh' || x == 'LADAKH') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[34].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[34].ph + '</h3>';;
 	}
-	else if (x == 'Lakshadweep') {
+	else if (x == 'Lakshadweep' || x == 'lakshadweep' || x == 'LAKSHADWEEP') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[35].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[35].ph + '</h3>';;
 	}
-	else if (x == 'Puducherry') {
+	else if (x == 'Puducherry' || x == 'puducherry' || x == 'PUDUCHERRY') {
 		document.getElementById('new').innerHTML = '<h3> State:' + ' ' + arr[36].no + '.' + ' ' + 'Helpline Number:' + ' ' + arr[36].ph + '</h3>';;
 	}
 	else
@@ -326,7 +326,7 @@ function probab() {
 		document.getElementById('new1').innerHTML = '<h3> 17 % Covid 19 patients belong to your age group </h3>'
 	}
 
-	if (troub_breath == 'Yes') 
+	if (troub_breath == 'Yes' || troub_breath == 'yes') 
 	{
 		sum += 1;
 	}
@@ -334,7 +334,7 @@ function probab() {
 	{
 		sum += 0;
 	}
-	if (diab == 'Yes') 
+	if (diab == 'Yes' || diab == 'yes') 
 	{
 		sum += 1;
 	}
@@ -342,7 +342,7 @@ function probab() {
 	{
 		sum += 0;
 	}
-	if (bp == 'Yes') 
+	if (bp == 'Yes' || bp == 'yes') 
 	{
 		sum += 1;
 	}
@@ -350,7 +350,7 @@ function probab() {
 	{
 		sum += 0;
 	}
-	if (fever == 'Yes') 
+	if (fever == 'Yes' || fever == 'yes') 
 	{
 		sum += 1;
 	}
@@ -358,7 +358,7 @@ function probab() {
 	{
 		sum += 0;
 	}
-	if (d_cough == 'Yes') 
+	if (d_cough == 'Yes' || d_cough == 'yes') 
 	{
 		sum += 1;
 	}
@@ -366,7 +366,7 @@ function probab() {
 	{
 		sum += 0;
 	}
-	if (tire == 'Yes') 
+	if (tire == 'Yes' || tire == 'yes') 
 	{
 		sum += 1;
 	}
@@ -374,23 +374,7 @@ function probab() {
 	{
 		sum += 0;
 	}
-	if (n_congest == 'Yes') 
-	{
-		sum += 1;
-	}
-	else
-	{
-		sum += 0;
-	}	
-	if (diarr == 'Yes') 
-	{
-		sum += 1;
-	}
-	else
-	{
-		sum += 0;
-	}
-	if (c_in_apt == 'Yes') 
+	if (n_congest == 'Yes' || n_congest == 'yes') 
 	{
 		sum += 1;
 	}
@@ -398,7 +382,7 @@ function probab() {
 	{
 		sum += 0;
 	}	
-	if (pres_chest == 'Yes') 
+	if (diarr == 'Yes' || diarr == 'yes') 
 	{
 		sum += 1;
 	}
@@ -406,7 +390,23 @@ function probab() {
 	{
 		sum += 0;
 	}
-	if (travel == 'Yes') 
+	if (c_in_apt == 'Yes' || c_in_apt == 'yes') 
+	{
+		sum += 1;
+	}
+	else
+	{
+		sum += 0;
+	}	
+	if (pres_chest == 'Yes' || pres_chest == 'yes') 
+	{
+		sum += 1;
+	}
+	else
+	{
+		sum += 0;
+	}
+	if (travel == 'Yes' || travel == 'yes') 
 	{
 		sum += 1;
 	}
