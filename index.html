@@ -30,11 +30,9 @@
 	<script type="text/javascript" src="index.js"></script>
 </head>
 <body id="main">
-	<div class="pps">
 		<div id="dialog" title="Fight Covid Alert" class="jqueryUIDialog">
 	  		<img src="pop.jpg" class="img-fluid">
-		</div>
-	</div>
+		</div>	
 
 	<nav class="navbar navbar-expand-sm bg-light fixed-top" id="navs">
 	  <a class = "nav-link" href="index.html" style="font-family: Acme; color: #fff; font-size: 30px;">Fight Covid</a>
@@ -293,9 +291,9 @@
 </body>
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
-	$(function() {
-	   $("#dialog").dialog();
-	 });
+	$(function(){
+		$("#dialog").dialog();
+	});
 
 	google.charts.load('current', {'packages':['corechart']});
 	google.charts.setOnLoadCallback(drawChart);
